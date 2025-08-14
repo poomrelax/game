@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
   const [password, setpassword] = useState("")
 
-  let password_conf = "gang mak kod hod"
+  let password_conf = "ตัวเลขทั้งหมดนี้"
 
   function submit() {
     if (password == password_conf) {
